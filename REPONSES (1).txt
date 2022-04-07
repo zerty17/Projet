@@ -1,0 +1,22 @@
+P4.1
+Non cela ne sert a rien pour l'instant, car il est possible de copier un vecteur dans un autre avec l'operateur =, 
+ou d'initialiser un nouveau vecteur de tel maniere : Vecteur vect2(vect1);
+P4.2 
+Non cela n'est pas possible car il y aurait un masquage avec le constructeur déjà present qui a 3 arguments en 
+paramètres
+P4.3
+Nous avons introduit plusieurs opperateur en interieur:
+1) +=
+2) -=
+3) *= 
+Qui nous ont ensuite permis de définir d'autres operateurs à l'exterieur liés aux opérateurs précedents:
+1) + : addition
+2) - : soustraction 
+3) * : le produit scalaire pour un double(et invesrement pour que cela soit plus pratique)
+	 et aussi le produit vectoriel de deux vecteurs
+Nous avons également introduits d'autres opérateurs :
+1) == : un bool pour savoir si les vecteurs sont égaux
+2) != : un bool pour savoir si les vecteurs sont différents
+3) ~ : l'operateur du vecteur unitaire 
+4) << : operateur d'affichage
+5) ^ : produit vectoriel de deux vecteurs
